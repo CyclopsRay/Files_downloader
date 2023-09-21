@@ -1,6 +1,6 @@
 # Toolkit to download slides from a website
 
-This is a simple Python tool to download slides from a certain website. Feel free to add more function if you need!
+This is a simple Python tool to download Files from a certain website. Feel free to add more function if you need!
 
 ## An example to use:
 
