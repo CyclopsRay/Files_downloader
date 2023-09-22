@@ -34,7 +34,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Download files from a website using a specific pattern.')
     parser.add_argument('--website', '-w', required=True, help='Website URL to scrape.')
     parser.add_argument('--pattern', '-p', required=True, help='CSS selector pattern to match links.')
-    parser.add_argument('--time', '-t', help = "Time you want the website to wait.",default = 3000)
+    parser.add_argument('--time', '-t', help = "Time you want the website to wait.",default = 3)
 
     args = parser.parse_args()
     download_files_from_website(args.website, args.pattern, args.time)
